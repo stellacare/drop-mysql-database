@@ -6,15 +6,15 @@ inputs:
     required: true
     default: ''
   host:
-    description: ''
+    description: 'Database server host'
     required: true
     default: ''
   user:
-    description: ''
+    description: 'Database server username'
     required: true
     default: ''
   password:
-    description: ''
+    description: 'Database server password'
     required: true
     default: ''  
 outputs:
