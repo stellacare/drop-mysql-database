@@ -1,0 +1,25 @@
+name: 'Drop MySQL Database'
+description: ''
+inputs:
+  database-name:
+    description: 'Name of database to be dropped'
+    required: true
+    default: ''
+  host:
+    description: ''
+    required: true
+    default: ''
+  user:
+    description: ''
+    required: true
+    default: ''
+  password:
+    description: ''
+    required: true
+    default: ''  
+outputs:
+    status:
+    description: 'Action result'
+runs:
+  using: 'node12'
+  main: 'index.js'

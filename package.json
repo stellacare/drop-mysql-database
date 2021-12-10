@@ -1,0 +1,24 @@
+{
+  "name": "drop-mysql-database-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel4490/Drop-MySQL-Database-Action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel4490/Drop-MySQL-Database-Action/issues"
+  },
+  "homepage": "https://github.com/Daniel4490/Drop-MySQL-Database-Action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "mysql": "^2.18.1"
+  }
+}
