@@ -4,22 +4,22 @@ inputs:
   database-name:
     description: 'Name of database to be dropped'
     required: true
-    default: ''
+    default: 'temp'
   host:
     description: 'Database server host'
     required: true
-    default: ''
+    default: 'localhost'
   user:
     description: 'Database server username'
     required: true
-    default: ''
+    default: 'root'
   password:
     description: 'Database server password'
     required: true
-    default: ''  
+    default: 'root'
 outputs:
-    status:
-    description: 'Action result'
+  status:
+    description: '0 if response code returned within timeout, otherwise 1'
 runs:
   using: 'node12'
   main: 'index.js'
